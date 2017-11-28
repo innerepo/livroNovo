@@ -48,6 +48,11 @@ def cria_atividades():
         atividade = input('Digite a descrição da atividade: ')
     return prj
 
+
+# Remover uma atividade.
+def del_atividade():
+    prj = int(input('Informe o código do projeto que terá atividades excluídas'))
+
 #Executa o programa chamando as funções conforme a solicitação do utilizador, até que a letra "f" seja informada
 status = str()
 while status != 'f':
